@@ -1,3 +1,5 @@
+# Classroom Repo: https://github.com/CS-433/project-2-apertus-code-gym
+
 # Code Gym
 A project on improving models' coding capabilities. Primary dataset available at [Hugging Face](https://huggingface.co/datasets/newfacade/LeetCodeDataset). Hosted by the [SwissAI](https://www.swiss-ai.org/apertus) CodeGym team, this [ML4Science](https://epfml.github.io/cs433-2025/ml4science/) project was done as coursework for [CS-433 Machine Learning](https://epfml.github.io/cs433-2025/) at EPFL. 
 
