@@ -1,7 +1,29 @@
 # Code Gym
 Improving models coding capabilities.
 
+## Note on Project Scope and Ownership
 
+The following components **were not implemented by us** and are included for completeness or integration purposes only:
+
+### Source directories
+- `src/backend`
+- `src/classifiers`
+- `src/dataset` *(except for changes made to `utils` and `posttrain`)*
+- `src/formatters`
+- `src/masking`
+- `src/prompts`
+- `src/utils`
+
+### Source files
+- `src/synthesizer.py`
+- `src/tester.py`
+
+### Project root files and scripts
+- `Dockerfile`
+- `backend*.sh` scripts
+- `generation*.sh` scripts
+
+The **transformation framework and transformation implementations**, were developed as part of this project.
 
 ## Transformation
 
