@@ -1,9 +1,9 @@
 # Code Gym
-Improving models coding capabilities. Primary dataset used https://huggingface.co/datasets/newfacade/LeetCodeDataset
+A project on improving models' coding capabilities. Primary dataset available at [Hugging Face](https://huggingface.co/datasets/newfacade/LeetCodeDataset). Hosted by the [SwissAI](https://www.swiss-ai.org/apertus) CodeGym team, this [ML4Science](https://epfml.github.io/cs433-2025/ml4science/) project was done as coursework for [CS-433 Machine Learning](https://epfml.github.io/cs433-2025/) at EPFL. 
 
 ## Note on Project Scope and Ownership
 
-The following components **were not implemented by us** and are included for completeness or integration purposes only:
+The following components **were not implemented by the student team**, but instead by the CodeGym team before onboarding, and are included for completeness or integration purposes only:
 
 ### Source directories
 - `src/backend`
@@ -27,7 +27,7 @@ The **transformation framework and transformation implementations**, were develo
 
 ## Transformation
 
-Point: Transform classes based on one class, providing a clear format for transformation application.
+Point: Transform classes based on an abstract Transform class, providing a clear format for transformation application.
 At: ```src/transformation/...```
 
 ### Available Code Transformations
