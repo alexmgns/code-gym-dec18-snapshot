@@ -41,7 +41,7 @@ python src/run_augment.py --input src/example_dataset.json \
     --output verl_dataset_transformed.json \
     --transforms assignment_unroll for_to_while
 ```
-The dataset must have a `ground_truth` column with code. This column will be mutated by the code according to the transformation.
+The dataset must have a `ground_truth` column with code. This column will be mutated by the code according to the transformation. An example dataset is included at `src/example_dataset.json` for convenience.
 
 ## Dependencies
 
