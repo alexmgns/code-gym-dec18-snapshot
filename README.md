@@ -25,23 +25,3 @@ Install dependencies with:
 ```
 conda env create -f environment.yml
 ```
-
-TODOs: 
-1. test whether transformed code still passes tests
-2. evaluate performance of the model that uses both original and transformed data 
-
-## Examples
-We divide examples into two:
-1. Backend (for veRL integration): `backend.sh`
-2. Data generation (Offline data generation): `generation.sh`
-
-## TODOs:
-### Future:
-1. Generate/Use Datasets (Existing datasets, or synthetic ones)
-2. Test them using SandboxFusion via Scheduler
-3. Run in veRL
-
-### Tasks
-1. Integrate backend into veRL
-2. Create a synthetic data pipeline generation (Dataset creation, Test creation, Test of tests => New Synthetic Pipeline)
-  - Integrate OpenAPI model into the models.py => Easier for SGLang, VLLM serving etc...
