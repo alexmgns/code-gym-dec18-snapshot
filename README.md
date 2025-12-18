@@ -1,6 +1,47 @@
 # Code Gym
 Improving models coding capabilities.
 
+## Transformation
+1. Point: Transform classes based on one class, providing a clear format for transformation application.
+2. At: ```src/transformation/...```
+3. Example:
+```python
+# Imports
+dataset = LeetCodeDataset()
+transform = ForToWhileTransformation()
+transformed_dataset = transform.apply(dataset)
+# Work with transformed Dataset
+```
+## Dependencies
+
+Install dependencies with:
+```
+uv venv --python 3.10
+source ./venv/bin/activate
+```
+
+TODOs: 
+1. test whether transformed code still passes tests
+2. evaluate performance of the model that uses both original and transformed data 
+
+## Examples
+We divide examples into two:
+1. Backend (for veRL integration): `backend.sh`
+2. Data generation (Offline data generation): `generation.sh`
+
+## TODOs:
+### Future:
+1. Generate/Use Datasets (Existing datasets, or synthetic ones)
+2. Test them using SandboxFusion via Scheduler
+3. Run in veRL
+
+### Tasks
+1. Integrate backend into veRL
+2. Create a synthetic data pipeline generation (Dataset creation, Test creation, Test of tests => New Synthetic Pipeline)
+  - Integrate OpenAPI model into the models.py => Easier for SGLang, VLLM serving etc...
+
+
+## Other componenets, not part of ML4Science project:
 ## Image
 ### Build
 ```bash
@@ -91,53 +132,3 @@ Where `<PROGRAMMING_LANGUAGE>` is the lowercase programming language used.
 dataset = get_dataset(<DATASET_NAME>)
 # Work with Dataset
 ```
-
-## Transformation
-1. Point: Transform classes based on one class, providing a clear format for transformation application.
-2. At: ```src/transformation/...```
-3. Example:
-```python
-# Imports
-dataset = LeetCodeDataset()
-transform = ForToWhileTransformation()
-transformed_dataset = transform.apply(dataset)
-# Work with transformed Dataset
-```
-## Dependencies
-
-Install dependencies with:
-```
-uv venv --python 3.10
-source ./venv/bin/activate
-# Transformer based
-uv pip install transformers==4.57.3
-uv pip install datasets==4.4.1
-uv pip install evaluate==0.4.6
-# Tree-sitter and CodeBLEU
-uv pip install codebleu
-uv pip install tree-sitter-language-pack==0.13.0
-uv pip install tree-sitter-python
-# Rope
-uv pip install rope==1.14.0
-# Run the code inside venv
-```
-
-TODOs: 
-1. test whether transformed code still passes tests
-2. evaluate performance of the model that uses both original and transformed data 
-
-## Examples
-We divide examples into two:
-1. Backend (for veRL integration): `backend.sh`
-2. Data generation (Offline data generation): `generation.sh`
-
-## TODOs:
-### Future:
-1. Generate/Use Datasets (Existing datasets, or synthetic ones)
-2. Test them using SandboxFusion via Scheduler
-3. Run in veRL
-
-### Tasks
-1. Integrate backend into veRL
-2. Create a synthetic data pipeline generation (Dataset creation, Test creation, Test of tests => New Synthetic Pipeline)
-  - Integrate OpenAPI model into the models.py => Easier for SGLang, VLLM serving etc...
