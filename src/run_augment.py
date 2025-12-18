@@ -79,7 +79,7 @@ if __name__ == "__main__":
 Example usage:
 
 # Ex. run from src
-python src/run_augment.py --input your_verl_dataset.json \
+python src/run_augment.py --input src/example_dataset.json \
     --output verl_dataset_transformed.json \
     --transforms assignment_unroll for_to_while
 """
