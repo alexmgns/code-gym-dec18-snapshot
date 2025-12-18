@@ -20,8 +20,8 @@ The following components **were not implemented by us** and are included for com
 
 ### Project root files and scripts
 - `Dockerfile`
-- `backend*.sh` scripts
-- `generation*.sh` scripts
+- `backend.sh` scripts
+- `generation.sh` scripts
 
 The **transformation framework and transformation implementations**, were developed as part of this project.
 
