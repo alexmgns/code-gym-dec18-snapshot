@@ -109,17 +109,6 @@ Install dependencies with:
 ```
 uv venv --python 3.10
 source ./venv/bin/activate
-# Transformer based
-uv pip install transformers==4.57.3
-uv pip install datasets==4.4.1
-uv pip install evaluate==0.4.6
-# Tree-sitter and CodeBLEU
-uv pip install codebleu
-uv pip install tree-sitter-language-pack==0.13.0
-uv pip install tree-sitter-python
-# Rope
-uv pip install rope==1.14.0
-# Run the code inside venv
 ```
 
 TODOs: 
