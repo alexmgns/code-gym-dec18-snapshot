@@ -4,27 +4,27 @@ channels:
   - https://repo.anaconda.com/pkgs/main
   - https://repo.anaconda.com/pkgs/r
 dependencies:
-  - _libgcc_mutex=0.1=main
-  - _openmp_mutex=5.1=51_gnu
-  - bzip2=1.0.8=h998d150_6
-  - ca-certificates=2025.2.25=hd43f75c_0
-  - ld_impl_linux-aarch64=2.40=h48e3ba3_0
-  - libffi=3.4.4=h419075a_1
-  - libgcc-ng=11.2.0=h1234567_1
-  - libgomp=11.2.0=h1234567_1
-  - libstdcxx-ng=11.2.0=h1234567_1
-  - libuuid=1.41.5=h998d150_0
-  - ncurses=6.4=h419075a_0
-  - openssl=3.0.16=h998d150_0
-  - pip=25.1=pyhc872135_2
-  - python=3.10.16=h4bb2201_1
-  - readline=8.2=h998d150_0
-  - setuptools=78.1.1=py310hd43f75c_0
-  - sqlite=3.45.3=h998d150_0
-  - tk=8.6.14=h987d8db_0
-  - wheel=0.45.1=py310hd43f75c_0
-  - xz=5.6.4=h998d150_1
-  - zlib=1.2.13=h998d150_1
+  - _libgcc_mutex=0.1
+  - _openmp_mutex=5.1
+  - bzip2=1.0.8
+  - ca-certificates=2025.2.25
+  - ld_impl_linux-aarch64=2.40
+  - libffi=3.4.4
+  - libgcc-ng=11.2.0
+  - libgomp=11.2.0
+  - libstdcxx-ng=11.2.0
+  - libuuid=1.41.5
+  - ncurses=6.4
+  - openssl=3.0.16
+  - pip=25.1
+  - python=3.10.16
+  - readline=8.2
+  - setuptools=78.1.1
+  - sqlite=3.45.3
+  - tk=8.6.14
+  - wheel=0.45.1
+  - xz=5.6.4
+  - zlib=1.2.13
   - pip:
         - accelerate==1.6.0
         - aiohappyeyeballs==2.6.1
