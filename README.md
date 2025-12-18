@@ -1,5 +1,5 @@
 # Code Gym
-Improving models coding capabilities.
+Improving models coding capabilities. Primary dataset used https://huggingface.co/datasets/newfacade/LeetCodeDataset
 
 ## Note on Project Scope and Ownership
 
