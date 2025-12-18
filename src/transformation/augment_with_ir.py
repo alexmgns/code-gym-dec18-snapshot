@@ -15,6 +15,7 @@ from tqdm import tqdm
 import warnings
 
 from transformation.base import Transformation
+from dataset.utils import Dataset
 
 
 # Imports are not part of the LeetCode solutions, so a bunch of commonly
