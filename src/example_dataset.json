@@ -1,0 +1,30 @@
+[
+  {
+    "data_source": "synthetic_example",
+    "prompt": [
+      {
+        "role": "user",
+        "content": "Write a Python program that assigns the same value to multiple variables and prints numbers from 0 up to that value."
+      }
+    ],
+    "ability": "code",
+    "reward_model": {
+      "style": "rule",
+      "ground_truth": [
+        "a = b = c = 5\nfor i in range(a): print(i)"
+      ]
+    },
+    "extra_info": {
+      "split": "train",
+      "index": 0,
+      "difficulty": "easy",
+      "source": "synthetic",
+      "tags": ["python", "assignment", "loop"],
+      "starter_code": "",
+      "input_output": null,
+      "time_limit": 1.0,
+      "memory_limit": 256,
+      "language": "python"
+    }
+  }
+]
