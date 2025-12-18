@@ -10,6 +10,7 @@ from transformation.assignment_unroll import UnrollAssignmentTransformation
 from transformation.condition_unroll import UnrollConditionTransformation
 from transformation.for_to_while import ForToWhileTransformation
 from transformation.variable_rename import RandomizeVariableNames
+from transformation.augment_with_ir import AugmentIRTransformation
 
 def apply_transforms_to_example(example: dict, transforms: List[Callable[[str], str]]) -> dict:
    """
@@ -33,8 +34,9 @@ def main(input_file: str, output_file: str, transform_names: List[str]):
       "for_to_while": ForToWhileTransformation().transform_code,
       "condition_unroll": UnrollConditionTransformation().transform_code,
       "assignment_unroll" : UnrollAssignmentTransformation().transform_code,
-      "randomize_var_names" : RandomizeVariableNames().transform_code
-      # 4 transforms implemented so far. When there are lots more, this will be made more scalable.
+      "randomize_var_names" : RandomizeVariableNames().transform_code,
+      "augment_with_ir": AugmentIRTransformation().transform_code
+      # 5 transforms implemented so far. When there are lots more, this will be made more scalable.
    }
 
    # Make sure the user used valid transform names
